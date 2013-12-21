@@ -1,0 +1,1 @@
+* * * * * jeneag /usr/bin/php /home/jeneag/projects/interviews/marketo/remotejson.php "http://127.0.0.1/ajax.php"

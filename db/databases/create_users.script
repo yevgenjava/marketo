@@ -1,0 +1,5 @@
+
+CREATE USER 'user'@'localhost' IDENTIFIED BY 'passwd';
+GRANT ALL PRIVILEGES ON testdb.json_records TO 'user'@'localhost';
+FLUSH PRIVILEGES;
+
