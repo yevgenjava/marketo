@@ -1,7 +1,7 @@
 <?php
 /**
  * Provides common Web Utility methods.
- * @author jgolubenko@yahoo.com
+ * @author yevgen.java@gmail.com
  */
 class WebUtil
 {
