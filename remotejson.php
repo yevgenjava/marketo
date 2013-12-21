@@ -15,11 +15,10 @@ if(is_array($json_content) && sizeof($json_content) > 0)
 	
 	$jrDao = new JsonRecordDAO();
 	$jrDao->createOrUpdate($jsonRecord);
-	echo "1\n";
+	WebResponse::success("1");
 }
 else
 {
-	LogUtil::error("Response from " . $url . " is not valid JSON");
-	echo "-1\n";
+	WebResponse::fail("Response from " . $url . " is not valid JSON");
 }
 ?>
